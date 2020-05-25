@@ -1,0 +1,17 @@
+{
+  "name": "jest-indexeddb-undefined-demo",
+  "version": "1.0.0",
+  "description": "a demo of how jest unnecessarily traverse into files containing indexedDB ",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "idb": "^5.0.3"
+  }
+}
