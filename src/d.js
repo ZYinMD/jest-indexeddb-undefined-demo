@@ -1,7 +1,9 @@
 import { bar } from "./c";
-export function innocentFunction() {
-  return "I am innocent";
+
+export function notEvenCalled() {
+  return sum(bar, 100);
 }
-function notEvenCalled() {
-  console.log(innocentFunction(), bar);
+
+export function sum(a, b) {
+  return a + b;
 }

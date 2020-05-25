@@ -1,7 +1,9 @@
 import { dbConnection } from "./a";
-function notEvenCalled() {
+
+export const foo = 1;
+
+export function doSomethingWithDB() {
   dbConnection.then((db) => {
-    /* not doing anything */
+    //...
   });
 }
-export const foo = 1;
